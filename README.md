@@ -1,11 +1,11 @@
-##LinkedLyrics##
+##LinkedLyrics
 **LinkedLyrics** is a console-based music library
 management application built using the Linked List
 data structure. It allows users to dynamically create,
 modify, and navigate a playlist through eƯicient
 pointer manipulation. 
 
-##Research Problem##
+##Research Problem
 When creating a program ,
 usually we use arrays for store the data. But in this
 program such like playlist management system
@@ -16,7 +16,7 @@ use linked list , the datas are not together we know
 the next data’s place with pointer. With that,you can
 easily add new song in linked list. 
 
-##Motivation##
+##Motivation
 The motivation behind LinkedLyrics is
 to leverage dynamic memory allocation to create a
 more liquid data structure. By using nodes and
@@ -25,7 +25,7 @@ is to provide a smooth user experience where songs
 can be reordered or removed with minimal
 computational effort. 
 
-##Control Flow##
+##Control Flow
 1)Every song instantiating from Song class and every
 song contains song’s name and next song’s pointer
 2)User input: Program asks about the choice to user.
@@ -53,5 +53,5 @@ Visual Feedback: After every action, the printPlayList
 function iterates through the list to display the
 current sequence (e.g., Song A -> Song B -> NULL). 
  
-##Deployment##
+##Deployment
 This project is directly uploaded from github repo(https://github.com/ahmeterenzengin/LinkedLyrics).
